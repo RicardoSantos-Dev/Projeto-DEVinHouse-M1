@@ -49,10 +49,9 @@ let listaProduto = [];
  function adcionar(){
     const inputProduto = input.value;
     if(!inputProduto) return;
-    // pegarDados();
-    // validarInput();
      listaProduto.push({
-         name: inputProduto
+         name: inputProduto,
+         id: 0
      });
 
      input.value = '';
@@ -69,6 +68,7 @@ botaoRemoveSelecionado.addEventListener('click', () => {
   listaProduto.filter(item => {
       if(item.status === true){
           listaProduto.splice(item, 1);
+          atualizarLista();
       }
   })
 });
@@ -78,3 +78,12 @@ botaoLocalStorage.addEventListener('click', salvarStorage => {
 });
   
 
+function deletar(id){
+    let vazio = [];
+    
+
+}
+
+function calcular(){
+    
+}
