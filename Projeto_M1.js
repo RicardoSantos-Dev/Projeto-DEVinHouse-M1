@@ -75,6 +75,7 @@ botaoAdcionar.addEventListener('click',adcionar);
 
 botaoRemoveTudo.addEventListener('click', () => {
     ul.innerHTML = [];
+    
 });
 
 botaoRemoveSelecionado.addEventListener('click', () => {

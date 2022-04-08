@@ -1,0 +1,65 @@
+body {
+    background-color: #EDBB00;
+}
+
+h1 {
+    background-color: #000000;
+    color: #A50044;
+}
+
+h2 {
+    background-color: #000000;
+    color: #A50044;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    display: flex center;
+    justify-content: center;
+    text-align: center;
+}
+
+li {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.botoes:hover {
+    border-radius: 10px;
+    background-color: #A50044;
+    
+}
+input {
+    border-radius: 10px;
+    border: #000000 2px;
+}
+#res {
+    color: #A50044;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+#lab {
+    color: #A50044;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+#total {
+    color: #A50044;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    background-color: #A50044;
+    color: #000000;
+    width: 100%;
+
+}
